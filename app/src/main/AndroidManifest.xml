@@ -13,8 +13,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TamatemPlusAssignment"
-        tools:targetApi="31" >
+        tools:targetApi="31">
 
+
+        <activity
+            android:name=".presenter.ui.activities.SplashActivity"
+            android:exported="true"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
 
     </application>
